@@ -2,15 +2,12 @@
   "name": "chat-with-yago",
   "version": "0.0.1",
   "authors": [
-    "Yann Gouffon <yago@yago-art.ch>"
+    "Yann Gouffon <hello@yago.io>"
   ],
   "description": "Little platform to chat with Yago",
   "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+  "devDependencies": {
+    "jquery": "1.10.2",
+    "Slidebars": "0.10.2"
+  }
 }

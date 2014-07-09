@@ -21,14 +21,15 @@ gulp.task('init', shell.task([
 gulp.task('vendors', function() {
 
   gulp.src([
-        ''
+        'bower_components/Slidebars/distribution/0.9.4/slidebars.css'
       ])
       .pipe(concat('vendors.min.css'))
       .pipe(minifycss())
       .pipe(gulp.dest('build/css'));
 
   gulp.src([
-      ''
+      'bower_components/jquery/jquery.js',
+      'bower_components/Slidebars/distribution/0.9.4/slidebars.min.js',
     ])
     .pipe(concat('vendors.min.js'))
     .pipe(uglify())
