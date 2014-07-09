@@ -1,0 +1,16 @@
+{
+  "name": "chat-with-yago",
+  "version": "0.0.1",
+  "authors": [
+    "Yann Gouffon <yago@yago-art.ch>"
+  ],
+  "description": "Little platform to chat with Yago",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
