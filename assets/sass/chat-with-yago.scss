@@ -1,1 +1,50 @@
+body {
+  margin: 0;
+}
+
+#fchat {
+  position: static !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  max-height: 100% !important;
+  height: auto !important;
+  overflow: visible !important;
+  margin-top: 50px !important;
+}
+
+#fchat-header {
+  display: none !important;
+}
+
+#fchat-feed {
+  height: auto !important;
+  padding: 25px 25px 0 25px !important;
+}
+
+.fchat-question {
+  text-align: left !important;
+  margin-left: 0 !important;
+}
+
+#fchat-footer {
+  border: none !important;
+  &:before {
+    content: '>' !important;
+  }
+}
+
+#fchat-message {
+  border: none !important;
+  color: black !important;
+  padding-left: 6px !important;
+  width: 85% !important;
+  height: 50px !important;
+  &:hover, &:focus, &:active {outline: none  !important;}
+}
+
+::-webkit-input-placeholder {color: #000; opacity: 0;}
+:-moz-placeholder {color: #000; opacity: 0;}
+::-moz-placeholder {color: #000; opacity: 0;}
+:-ms-input-placeholder {color: #000;}
+
 @import 'themes/developer';
