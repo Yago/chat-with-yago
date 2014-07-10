@@ -21,7 +21,8 @@ gulp.task('init', shell.task([
 gulp.task('vendors', function() {
 
   gulp.src([
-        'bower_components/Slidebars/distribution/0.9.4/slidebars.css'
+        'bower_components/Slidebars/distribution/0.9.4/slidebars.css',
+        'bower_components/font-awesome/css/font-awesome.css'
       ])
       .pipe(concat('vendors.min.css'))
       .pipe(minifycss())
