@@ -22,7 +22,8 @@ gulp.task('vendors', function() {
 
   gulp.src([
         'bower_components/Slidebars/distribution/0.9.4/slidebars.css',
-        'bower_components/font-awesome/css/font-awesome.css'
+        'bower_components/font-awesome/css/font-awesome.css',
+        'bower_components/iCheck/skins/flat/_all.css'
       ])
       .pipe(concat('vendors.min.css'))
       .pipe(minifycss())
@@ -31,6 +32,7 @@ gulp.task('vendors', function() {
   gulp.src([
       'bower_components/jquery/jquery.js',
       'bower_components/Slidebars/distribution/0.9.4/slidebars.min.js',
+      'bower_components/iCheck/icheck.js'
     ])
     .pipe(concat('vendors.min.js'))
     .pipe(uglify())

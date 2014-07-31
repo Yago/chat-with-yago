@@ -9,6 +9,7 @@
   "devDependencies": {
     "jquery": "1.10.2",
     "Slidebars": "0.10.2",
-    "font-awesome": "4.1.0"
+    "font-awesome": "4.1.0",
+    "iCheck": "1.0.2"
   }
 }
