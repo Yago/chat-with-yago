@@ -4,19 +4,12 @@
       radioClass: 'iradio_flat-green'
     });
 
-    $('input').click(function(){
-      alert('touduc');
-      $(':radio').each(function(){
-        if($(this).is(':checked')){
-          alert('touduc');
-        }
-      });
+    $(':radio').on('ifChecked', function(event){
+      var themeClass = $(this).val();
+      $('body').removeClass();
+      $('body').addClass(themeClass);
     });
   });
-
-  function check(val) {
-    alert(val);
-  }
 }(jQuery));
 (function($) {
   $(window).load(function() {
