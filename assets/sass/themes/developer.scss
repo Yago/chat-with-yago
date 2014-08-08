@@ -1,1 +1,14 @@
-.test {}
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+
+.developer {
+  font-family: 'Press Start 2P', cursive !important;
+  #fchat-feed, #fchat-message {
+    font-family: 'Press Start 2P', cursive !important;
+    //background: #333 !important;
+  }
+
+  #fchat-footer:before {
+    font-family: 'Press Start 2P', cursive !important;
+  }
+}
+
