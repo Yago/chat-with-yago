@@ -1,12 +1,33 @@
 @import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
 
+$mine:        #1b1b1b;
+$green:       #93ef00;
+$blue:        #009adc;
+$orange:      #f17f00;
+$dust:        #e9eef1;
+
 .developer {
+  background: $mine !important;
   font-family: 'Press Start 2P', cursive !important;
-  #fchat-feed, #fchat-message {
+  #sb-site {
+    background: $mine !important;
+  }
+  #message,
+  #fchat-feed,
+  #fchat-message,
+  #fchat-footer,
+  .fchat-question,
+  .fchat-response {
     font-family: 'Press Start 2P', cursive !important;
-    //background: #333 !important;
+    background: $mine !important;
+    color: $dust !important;
+    line-height: 25px;
   }
 
+  .fchat-agent-name {color: $green !important;}
+  .fchat-question:before {color: $orange !important;}
+  
+  #fchat-footer, #fchat-message {padding: 0 !important;}
   #fchat-footer:before {
     font-family: 'Press Start 2P', cursive !important;
   }

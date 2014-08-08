@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700);
+
+$mine:        #1b1b1b;
+$dust:        #e4e4e4;
+
+.writer {
+  background: $dust !important;
+  font-family: 'Merriweather', cursive !important;
+  #sb-site {
+    background: $dust !important;
+  }
+  #fchat, #message {
+    width: 50% !important;
+    margin-left: 25% !important;
+    @media only screen and (max-width: 767px) {
+      width: 80% !important;
+      margin-left: 10% !important;
+    }
+  }
+  #message,
+  #fchat-feed,
+  #fchat-message,
+  #fchat-footer,
+  .fchat-question,
+  .fchat-response {
+    font-family: 'Merriweather', cursive !important;
+    background: $dust !important;
+    color: $mine !important;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .fchat-question, .fchat-response {
+    margin-bottom: 20px !important;
+  }
+
+  #fchat-footer {
+    border-top: 1px solid lighten($mine, 60%) !important;
+    margin-top: 40px !important;
+    &:before {
+      content: 'You:' !important;
+      font-weight: bold !important;
+      padding: 20px 25px !important;
+    }
+  }
+
+  .fchat-agent-name, .fchat-question:before {
+    font-weight: bold !important;
+  }
+  
+  #fchat-message {
+    position: relative !important;
+    left: -15px !important;
+    padding: 10px 5px !important;
+  }
+  #fchat-footer:before {
+    font-family: 'Merriweather', cursive !important;
+  }
+}
+

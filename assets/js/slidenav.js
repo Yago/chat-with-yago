@@ -7,5 +7,10 @@
       chatSlidebars.toggle('right');
     });
 
+    $('#close-right').on('click', function(event) {
+      event.preventDefault();
+      chatSlidebars.toggle('right');
+    });
+
   });
 }) (jQuery);

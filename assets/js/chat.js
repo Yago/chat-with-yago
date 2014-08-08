@@ -1,6 +1,6 @@
 (function($){
   $('#fchat').ready(function(){
-    var data="Lorem ipsum dolor sit amet";
+    var data="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Septem autem illi non suo, sed populorum";
     var index=0;
 
     var cursor="<span id='cursor'>|</span>";
