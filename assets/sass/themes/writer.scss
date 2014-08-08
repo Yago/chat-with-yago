@@ -28,6 +28,7 @@ $dust:        #e4e4e4;
     color: $mine !important;
     font-size: 20px;
     line-height: 25px;
+    @media only screen and (max-width: 767px) {font-size: 16px !important;}
   }
 
   .fchat-question, .fchat-response {

@@ -22,6 +22,7 @@ $dust:        #e9eef1;
     background: $mine !important;
     color: $dust !important;
     line-height: 25px;
+    @media only screen and (max-width: 767px) {font-size: 12px !important;}
   }
 
   .fchat-agent-name {color: $green !important;}
