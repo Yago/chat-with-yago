@@ -1,6 +1,6 @@
 (function($){
   $('#fchat').ready(function(){
-    var data="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Septem autem illi non suo, sed populorum";
+    var data="Hi there ! My name is Yann and I'm glad to meet you. What's your name ?";
     var index=0;
 
     var cursor="<span id='cursor'>|</span>";
