@@ -31,7 +31,7 @@ $dust:        #e9eef1;
   .fchat-agent-name {color: $green !important;}
   .fchat-question:before {color: $orange !important;}
   
-  #fchat-footer, #fchat-message {padding: 0 !important;}
+  #fchat-footer, #fchat-message {font-size: 16px !important;padding: 0 !important;}
   #fchat-footer:before {
     font-family: 'Press Start 2P', cursive !important;
   }
