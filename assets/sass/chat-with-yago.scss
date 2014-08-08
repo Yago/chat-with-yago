@@ -12,12 +12,8 @@ body {
   margin: 0;
 }
 
-#sb-site {
-  padding: 20px 0;
-}
-
 #message {
-  padding: 25px !important;
+  padding: 50px 30px !important;
 }
 
 #fchat {
@@ -46,7 +42,7 @@ body {
 
 #fchat-feed {
   height: auto !important;
-  padding: 25px 25px 0 25px !important;
+  padding: 25px 25px 0 30px !important;
   background: transparent !important;
 }
 
@@ -65,7 +61,7 @@ body {
 #fchat-message {
   border: none !important;
   color: black !important;
-  padding-left: 6px !important;
+  padding-left: 5px !important;
   width: 85% !important;
   height: 50px !important;
   &:hover, &:focus, &:active {outline: none  !important;}
